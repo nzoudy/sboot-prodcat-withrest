@@ -46,4 +46,27 @@ public class SbootProdcatWithrestApplication /*implements CommandLineRunner*/ {
 		System.out.println("Saving Done ... ! ");
 		
 	}*/
+	
+	// build mongo query
+			/*
+			 * Query query = new Query(Criteria.where("name").is("document_1"));
+			 * 
+			 * // search operation SimpleDocument object = (SimpleDocument)
+			 * mongoOperations.findOne(query, SimpleDocument.class);
+			 * System.out.println("object :"+object.toString());
+			 * 
+			 * //update operation WriteResult updateFirst =
+			 * mongoOperations.updateFirst(query, Update.update("description",
+			 * "update description"), SimpleDocument.class);
+			 * System.out.println("document updated " + updateFirst);
+			 * 
+			 * // find all simple document in DB List<SimpleDocument> objList =
+			 * mongoOperations.findAll(SimpleDocument.class); for (SimpleDocument sd
+			 * : objList) { System.out.println("objLst : "+sd); }
+			 * 
+			 * // delete a simple document in Db WriteResult remove =
+			 * mongoOperations.remove(query, SimpleDocument.class);
+			 * System.out.println("Object removed : "+remove);
+			 */
+		
 }

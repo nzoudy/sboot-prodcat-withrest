@@ -16,7 +16,7 @@ public class Category implements Serializable{
 	@Id
 	private String idCategory;
 	
-	@Field(value="nom_produit")
+	@Field(value="nom_categorie")
 	private String name;
 	
 	@Field
